@@ -29,4 +29,18 @@
      
 **🏃 Como Executar**
 
-O bloco if __name__ == '__main__': é o ponto de entrada do script. Ele garante que a tabela usuarios seja criada no banco de dados se ainda não existir (Base.metadata.create_all(engine)).Para testar as funções, descomente as linhas de chamada de função dentro deste bloco, por exemplo:
+O bloco if __name__ == '__main__': é o ponto de entrada do script. Ele garante que a tabela usuarios seja criada no banco de dados se ainda não existir (Base.metadata.create_all(engine)).Para testar as funções, descomente as linhas 92 ate 95 para fazer a chamada de função, por exemplo:
+
+
+
+92    #insert_usuario('Nome do usuario desejado', 'Função do usuario ex: Gerente,Operario,Convidado...')  ---> Cria um usuario novo
+
+93    #select_usuarios('Nome do Usuario que ta salvo no Banco de Dados') ---> Proucura o usuario no Banco de dados
+
+94   #update_nome_usuario('Informe o ID aqui', 'Informe o novo NOME') ---> Atualiza o nome de um usuario ja incluso no Banco de dados
+
+95   #delete_usuario(coloca o numero do ID aqui)  ---> Deleta um usuario do banco de dados
+
+
+NÃO ESQUEÇA DE TIRAR O SIMBLO '#' QUE ESTA A FRENTE DA FUNÇÃO, EXECUTE UM POR VEZ PARA ENTENDER O SCRIPT!
+
