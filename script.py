@@ -92,4 +92,5 @@ if __name__ == '__main__':
     #insert_usuario('Gabriela', 'Convidado')
     #select_usuarios('Laura')
     #update_nome_usuario('2', 'Laura')
-    delete_usuario(5)
+    #delete_usuario(5)
+
